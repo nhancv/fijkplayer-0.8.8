@@ -1,0 +1,35 @@
+PODS:
+  - BIJKPlayer (0.7.10)
+  - fijkplayer (0.8.8):
+    - BIJKPlayer (~> 0.7.10)
+    - Flutter
+  - Flutter (1.0.0)
+  - shared_preferences (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - fijkplayer (from `.symlinks/plugins/fijkplayer/ios`)
+  - Flutter (from `Flutter`)
+  - shared_preferences (from `.symlinks/plugins/shared_preferences/ios`)
+
+SPEC REPOS:
+  trunk:
+    - BIJKPlayer
+
+EXTERNAL SOURCES:
+  fijkplayer:
+    :path: ".symlinks/plugins/fijkplayer/ios"
+  Flutter:
+    :path: Flutter
+  shared_preferences:
+    :path: ".symlinks/plugins/shared_preferences/ios"
+
+SPEC CHECKSUMS:
+  BIJKPlayer: 6727b075679eb5173b6d16f42ff2f33b9a757213
+  fijkplayer: 0d3793a2822d030ef5bba77f904bff1f7a91a115
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  shared_preferences: af6bfa751691cdc24be3045c43ec037377ada40d
+
+PODFILE CHECKSUM: 8e679eca47255a8ca8067c4c67aab20e64cb974d
+
+COCOAPODS: 1.10.1
